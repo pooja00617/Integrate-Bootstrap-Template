@@ -1,0 +1,63 @@
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.form-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #f1e5e5;
+  border-radius: 8px;
+  max-width: 600px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Hover effect for input fields */
+input:hover, textarea:hover, select:hover {
+  border-color: #007bff;
+}
+
+.submitted-data {
+  margin-top: 20px;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.submitted-data pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
